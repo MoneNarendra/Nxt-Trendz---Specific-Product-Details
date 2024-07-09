@@ -1,0 +1,49 @@
+.similar-product-container {
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+.sim-pro-imgs {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-product-container {
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .sim-pro-imgs {
+    height: 280px;
+  }
+}
+
+.sim-pro-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+  margin-bottom: 0px;
+}
+
+.sim-pro-brand {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #616e7c;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.sim-pro-price {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.price-rating-contianer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
